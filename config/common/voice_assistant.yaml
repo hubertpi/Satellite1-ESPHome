@@ -37,7 +37,7 @@ microphone:
 micro_wake_word:
   id: mww
   models:
-    - model: github.com/hubertpi/Satellite1-ESPHome/blob/develop/config/common/hey_hannah.tflite
+    - model: github.com/hubertpi/Satellite1-ESPHome/blob/develop/config/common/hey_hannah.json
       id: hey_hannah 
     - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
       id: stop
