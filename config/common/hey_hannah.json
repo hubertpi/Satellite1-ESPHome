@@ -1,7 +1,15 @@
 {
-  "name": "hey_hannah",
-  "tflite": "hey_hannah.tflite",
-  "sensitivity": 0.5,
-  "sample_rate": 16000,
-  "channels": 1
+  "type": "micro",
+  "wake_word": "hey hannah",
+  "author": "Hubert",
+  "website": "https://github.com/hubertpi",
+  "model": "hey_hannah.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.97,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2025.8.2"
+  }
 }
